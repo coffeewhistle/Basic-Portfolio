@@ -15,7 +15,6 @@
 
 .top-nav {
     float: right;
-    display: inline-block;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -28,5 +27,9 @@
 }
 
 .left-box-body {
+    float: left;
+}
+
+.left-box {
     float: left;
 }
