@@ -4,24 +4,29 @@
     margin: 0 auto;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .logo {
-    justify-content: flex-start;
+    float: left;
     border: 2px thick black;
-    width: 320px;
+    width: 30%;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
 }
 
 .top-nav {
-    justify-content: flex-end;
-    border: 2px thick black;
-    width: 320px;
+    float: right;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
+.left-box-body {
+    float: left;
+}
