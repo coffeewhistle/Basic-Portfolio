@@ -1,5 +1,4 @@
-.main-document {
-    border: 2px thick black;
+.main-document {    
     width: 960px;
     margin: 0 auto;
 }
@@ -28,8 +27,28 @@
 
 .left-box-body {
     float: left;
+    background-color: white;
+    width: 60%;
 }
 
 .left-box {
+    float: left;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.right-box {
+    float:right;
+}
+
+.main-body {
+    background-image: url(../images/dust_scratches.png);
+}
+
+#profile-image {
     float: left;
 }
