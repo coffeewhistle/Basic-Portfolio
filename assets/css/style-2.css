@@ -1,0 +1,74 @@
+.main-document {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #666666;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    background: #4aaaa5;
+    margin: 0;
+    width: 320px;
+    text-align: center;
+    color: white;
+}
+
+.top-nav {
+    background: white;
+    margin: 0;
+}
+
+.main-body {
+    display: flex;
+    background-image: url(../images/dust_scratches.png);
+}
+
+.left-box {
+    color: black;
+}
+
+.left-box-header {
+    background: green;
+}
+
+#profile-image {
+    float: left;
+}
+
+.left-box-body {
+    background: blue;
+}
+
+.right-box {
+    width: 300px;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.right-box-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background: #666666;
+    height: 60px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
