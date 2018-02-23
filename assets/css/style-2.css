@@ -9,7 +9,7 @@ header {
     background: #666666;
     height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .logo {
@@ -23,6 +23,7 @@ header {
 .top-nav {
     background: white;
     margin: 0;
+    padding: 0;
 }
 
 .main-body {
@@ -32,18 +33,21 @@ header {
 
 .left-box {
     color: black;
+    padding: 20px;
 }
 
 .left-box-header {
-    background: green;
+    background: white;
 }
 
 #profile-image {
     float: left;
+    padding: 0px 20px 20px 0px;
+
 }
 
 .left-box-body {
-    background: blue;
+    background: white;
 }
 
 .right-box {
