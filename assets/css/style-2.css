@@ -33,11 +33,12 @@ header {
 
 .left-box {
     color: black;
-    padding: 20px;
 }
 
 .left-box-header {
     background: white;
+    color: #4aaaa5;
+    border-top: #666666 5px;
 }
 
 #profile-image {
@@ -52,6 +53,11 @@ header {
 
 .right-box {
     width: 300px;
+    height: 200px;
+    background: white;
+    margin: 20px;
+    text-align: center;
+    color: #4aaaa5;
 }
 
 .social-icon {
