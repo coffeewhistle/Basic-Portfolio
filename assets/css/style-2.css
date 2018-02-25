@@ -14,7 +14,7 @@ header {
 
 .logo {
     background: #4aaaa5;
-    margin: 0;
+    margin-right: auto;
     width: 320px;
     text-align: center;
     color: white;
@@ -24,6 +24,13 @@ header {
     background: white;
     margin: 0;
     padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav-option{
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .main-body {
@@ -37,8 +44,7 @@ header {
 
 .left-box-header {
     background: white;
-    color: #4aaaa5;
-    border-top: #666666 5px;
+    color: #4aaaa5
 }
 
 #profile-image {
