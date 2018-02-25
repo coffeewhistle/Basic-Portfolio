@@ -29,8 +29,8 @@ header {
 }
 
 .nav-option{
-    margin-right: 0px;
     padding-right: 0px;
+    margin: auto 0px auto 20px;
 }
 
 .main-body {
